@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test-method Suite]">
+  <test name="test5(failed)">
+    <classes>
+      <class name="com.wcblast.WCBlastListManagerAddUpdate">
+        <methods>
+          <include name="BlastBasicFlow"/>
+        </methods>
+      </class> <!-- com.wcblast.WCBlastListManagerAddUpdate -->
+    </classes>
+  </test> <!-- test5(failed) -->
+</suite> <!-- Failed suite [Test-method Suite] -->

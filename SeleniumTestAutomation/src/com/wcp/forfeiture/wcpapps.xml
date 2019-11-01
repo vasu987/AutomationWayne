@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test-method Suite" thread-count="14" >
+
+     <test name="test1">
+    <classes>
+      <class name="com.wcp.forfeiture.CaseInfoLookUpByCaseTrackingNo"/>
+    </classes>
+   </test>
+   
+        <test name="test2">
+    <classes>
+      <class name="com.wcp.forfeiture.CaseInfoLookUpByDistrictCourtCaseNo"/>
+    </classes>
+   </test>
+   
+        <test name="test3">
+    <classes>
+      <class name="com.wcp.forfeiture.CaseInfoLookUpByCivilCourtCaseNo"/>
+    </classes>
+   </test>
+   
+       <test name="test4">
+    <classes>
+      <class name="com.wcp.forfeiture.CaseInfoLookUpByFFN"/>
+    </classes>
+   </test>
+        <test name="test5">
+    <classes>
+      <class name="com.wcp.forfeiture.CaseInfoLookUpByCircuitCourtCase"/>
+    </classes>
+   </test>
+        <test name="test6">
+    <classes>
+      <class name="com.wcp.forfeiture.CaseInfoLookUpBySeizingAgencyIncident"/>
+    </classes>
+   </test>
+        <test name="test7">
+    <classes>
+      <class name="com.wcp.forfeiture.CaseInfoLookUpByDate"/>
+    </classes>
+   </test>
+        <test name="test8">
+    <classes>
+      <class name="com.wcp.forfeiture.CaseInfoLookUpBySeizure"/>
+    </classes>
+   </test>
+   
+    <test name="test9">
+    <classes>
+      <class name="com.wcp.forfeiture.CaseInfoLookUpByClaimaint"/>
+    </classes>
+   </test>
+   
+     <test name="test10">
+    <classes>
+      <class name="com.wcp.forfeiture.CaseInfoLookUpByOther"/>
+    </classes>
+   </test>
+   
+        <test name="test11">
+    <classes>
+      <class name="com.wcp.searchwarranttracking.LaunchUserManagement"/>
+    </classes>
+   </test>
+        <test name="test12">
+    <classes>
+      <class name="com.wcp.searchwarranttracking.ModifyUserManagement"/>
+    </classes>
+   </test>
+        <test name="test13">
+    <classes>
+      <class name="com.wcp.searchwarranttracking.LaunchApplicationOption"/>
+    </classes>
+   </test>
+    <test name="test14">
+    <classes>
+      <class name="com.wcp.searchwarranttracking.LaunchWarrantTrack"/>
+    </classes>
+   </test>
+   
+   
+   
+</suite>
+ 
+ 
+
+
+

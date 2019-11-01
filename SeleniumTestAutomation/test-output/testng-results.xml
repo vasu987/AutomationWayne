@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-method Suite" duration-ms="502477" started-at="2019-11-01T17:25:12Z" finished-at="2019-11-01T17:33:34Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="200470" started-at="2019-11-01T17:25:12Z" finished-at="2019-11-01T17:28:32Z">
+      <class name="com.wcblast.BlastMessageManagerDeptCenter">
+        <test-method status="PASS" signature="BlastMessageManagerBasicFlow()[pri:0, instance:com.wcblast.BlastMessageManagerDeptCenter@5ba23b66]" name="BlastMessageManagerBasicFlow" duration-ms="200120" started-at="2019-11-01T13:25:12Z" finished-at="2019-11-01T13:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlastMessageManagerBasicFlow -->
+      </class> <!-- com.wcblast.BlastMessageManagerDeptCenter -->
+    </test> <!-- test1 -->
+    <test name="test2" duration-ms="200790" started-at="2019-11-01T17:28:33Z" finished-at="2019-11-01T17:31:53Z">
+      <class name="com.wcblast.BlastMessageManagerDeptRight">
+        <test-method status="PASS" signature="BlastMessageManagerBasicFlow()[pri:0, instance:com.wcblast.BlastMessageManagerDeptRight@48140564]" name="BlastMessageManagerBasicFlow" duration-ms="200788" started-at="2019-11-01T13:28:33Z" finished-at="2019-11-01T13:31:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlastMessageManagerBasicFlow -->
+      </class> <!-- com.wcblast.BlastMessageManagerDeptRight -->
+    </test> <!-- test2 -->
+    <test name="test3" duration-ms="38790" started-at="2019-11-01T17:31:53Z" finished-at="2019-11-01T17:32:32Z">
+      <class name="com.wcblast.WCBlastBasicFlow">
+        <test-method status="PASS" signature="BlastBasicFlow()[pri:0, instance:com.wcblast.WCBlastBasicFlow@5594a1b5]" name="BlastBasicFlow" duration-ms="38790" started-at="2019-11-01T13:31:53Z" finished-at="2019-11-01T13:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlastBasicFlow -->
+      </class> <!-- com.wcblast.WCBlastBasicFlow -->
+    </test> <!-- test3 -->
+    <test name="test4" duration-ms="20816" started-at="2019-11-01T17:32:32Z" finished-at="2019-11-01T17:32:53Z">
+      <class name="com.wcblast.WCBlastListManagerAddNewEmail">
+        <test-method status="PASS" signature="BlastBasicFlow()[pri:0, instance:com.wcblast.WCBlastListManagerAddNewEmail@b684286]" name="BlastBasicFlow" duration-ms="20816" started-at="2019-11-01T13:32:32Z" finished-at="2019-11-01T13:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlastBasicFlow -->
+      </class> <!-- com.wcblast.WCBlastListManagerAddNewEmail -->
+    </test> <!-- test4 -->
+    <test name="test5" duration-ms="40930" started-at="2019-11-01T17:32:53Z" finished-at="2019-11-01T17:33:34Z">
+      <class name="com.wcblast.WCBlastListManagerAddUpdate">
+        <test-method status="FAIL" signature="BlastBasicFlow()[pri:0, instance:com.wcblast.WCBlastListManagerAddUpdate@340f438e]" name="BlastBasicFlow" duration-ms="40886" started-at="2019-11-01T13:32:53Z" finished-at="2019-11-01T13:33:34Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/app-root/div/app-listmanager/div/div[1]/div[2]/button[1]"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'AUTOBOT01', ip: '10.0.212.121', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\snukala\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9f8abb42ec1ae213c195f0fc5eb06de6
+*** Element info: {Using=xpath, value=/html/body/app-root/div/app-listmanager/div/div[1]/div[2]/button[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/app-root/div/app-listmanager/div/div[1]/div[2]/button[1]"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'AUTOBOT01', ip: '10.0.212.121', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\snukala\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9f8abb42ec1ae213c195f0fc5eb06de6
+*** Element info: {Using=xpath, value=/html/body/app-root/div/app-listmanager/div/div[1]/div[2]/button[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.servicedesk.com.MainServiceDesk.BlastListManagerAdd(MainServiceDesk.java:2008)
+	at com.wcblast.WCBlastListManagerAddUpdate.BlastBasicFlow(WCBlastListManagerAddUpdate.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlastBasicFlow -->
+      </class> <!-- com.wcblast.WCBlastListManagerAddUpdate -->
+    </test> <!-- test5 -->
+  </suite> <!-- Test-method Suite -->
+</testng-results>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test-method Suite" thread-count="10" >
+
+     <test name="test1">
+    <classes>
+      <class name="com.wcblast.BlastMessageManagerDeptCenter"/>
+    </classes>
+   </test>
+   
+        <test name="test2">
+    <classes>
+      <class name="com.wcblast.BlastMessageManagerDeptRight"/>
+    </classes>
+   </test>
+   
+        <test name="test3">
+    <classes>
+      <class name="com.wcblast.WCBlastBasicFlow"/>
+    </classes>
+   </test>
+   
+       <test name="test4">
+    <classes>
+      <class name="com.wcblast.WCBlastListManagerAddUpdate"/>
+    </classes>
+   </test>
+  </suite>
+ 
+ 
+
+
+
